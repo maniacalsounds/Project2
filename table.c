@@ -11,7 +11,7 @@
 
 Table* create(long (*hash)(void* key), bool (*equals)(void* key1, void* key2), void (*print)(void* key1, void* value)) {
 	//Dynamically allocate a table.
-	Table *newTable = (Table*) malloc(sizeof(Table));
+	Table *newTable = (Table*) malloc(sizeof(Table));s
 	
 	if (newTable == NULL) {
 		//Memory allocation failed.
